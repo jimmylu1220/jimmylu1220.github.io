@@ -725,7 +725,7 @@ kbd {
   width: 100%;
   font-size: 18px;
   background-color: #2d2e30;
-  height: 80vh;
+  height: 40vh;
 }
 .header-inner--bgcolor {
   background-color: #333;
@@ -2125,6 +2125,10 @@ kbd {
   background-color: var(--color-card);
   float: left;
 }
+#disqus_thread {
+  width: 100%;
+  background-color: #fff;
+}
 .copy-button {
   position: absolute;
   top: 0;
@@ -2391,6 +2395,18 @@ kbd {
 .friends-plugin__item-info__intro {
   font-size: 0.9em;
   color: #999;
+}
+.busuanzi-siteuv__icon,
+.busuanzi-sitepv__icon,
+.busuanzi-siteuv__info,
+.busuanzi-sitepv__info,
+.busuanzi-siteuv__value,
+.busuanzi-sitepv__value {
+  margin: 0 2px;
+}
+.busuanzi > span:nth-child(2)::before {
+  content: '|';
+  margin: 0 10px;
 }
 @media (min-width: 1138px) {
   .header-nav-inner {
